@@ -110,18 +110,19 @@ namespace FirstWriteup
             //    Console.WriteLine("My number is" + Numricals);
             //}
 
-            Console.WriteLine("Please enter grades");
+           // Console.WriteLine("Please enter grades");
 
-            float grades = float.Parse(Console.ReadLine());
+           // float grades = float.Parse(Console.ReadLine());
 
-            if ((grades >= 0.00) && (grades <= 0.99))
-            {
-              Console.WriteLine("Failed Course");  
-            }
-           else if ((grades >= 1.00) && (grades <= 1.99))
-           {
-              Console.WriteLine("PASSED"); 
-           }
+           // if ((grades >= 0.00) && (grades <= 0.99))
+           // {
+           //   Console.WriteLine("Failed Course");  
+           // }
+           //else if ((grades >= 1.00) && (grades <= 1.99))
+           //{
+           //   Console.WriteLine("PASSED"); 
+           //}
+
 
 
         Console.ReadKey();
